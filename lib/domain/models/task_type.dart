@@ -1,7 +1,7 @@
 enum TaskType {
   urgentImportant("Urgent Important"),
   urgentNotImportant("Urgent Not Important"),
-  notUrgentImportant("Not Urgent Not Important"),
+  notUrgentImportant("Not Urgent Important"),
   notUrgentNotImportant("Not Urgent Not Important");
 
   const TaskType(this._text);
