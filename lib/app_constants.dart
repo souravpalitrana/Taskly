@@ -1,0 +1,1 @@
+const kSplashDurationInSeconds = 2;
