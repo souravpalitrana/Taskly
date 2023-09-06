@@ -23,7 +23,8 @@ A simple task management app which I use daily. Before this app I was using trel
 For the architecture used clean code architecture approach to architect the structure.
 
 ## Demo
+Download apk from [here](https://drive.google.com/file/d/12Iprfgu9Tmpayce1zCesMeKjNqqNy8k8/view?usp=sharing)
 
-![Screenshot](tasks.png)  ![Screenshot](add_task.png)
+![Screenshot](tasks.png | width=200)  ![Screenshot](add_task.png | width=200)
 
 
