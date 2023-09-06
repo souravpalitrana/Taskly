@@ -101,7 +101,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             height: 44,
             margin: const EdgeInsets.only(top: 8),
             child: TaskFilter(
-              selectedIndex: ref.read(homeState.notifier).selectedFilterIdx,
               filterItems: taskFilterItems,
             ),
           ),

@@ -4,10 +4,9 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:taskly/presentation/feature/home/provider/home_state_provider.dart';
 
 class TaskFilter extends ConsumerWidget {
-  TaskFilter(
-      {required this.selectedIndex, required this.filterItems, super.key});
+  TaskFilter({required this.filterItems, super.key});
 
-  final int selectedIndex;
+  //final int selectedIndex;
   final List<String> filterItems;
   final ItemScrollController _scrollController = ItemScrollController();
 
@@ -20,7 +19,9 @@ class TaskFilter extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    _startScrollDelay();
+    final selectedIndex = ref.read(homeState.notifier).selectedFilterIdx;
+    _startScrollDelay(selectedIndex);
+    print("Selected Index $selectedIndex");
     return ScrollablePositionedList.builder(
       itemScrollController: _scrollController,
       itemCount: filterItems.length,
@@ -31,7 +32,7 @@ class TaskFilter extends ConsumerWidget {
   }
 
   Widget _getFilterItemWidget(String item, int index, WidgetRef ref) {
-    final isSelected = index == selectedIndex;
+    final isSelected = index == ref.read(homeState.notifier).selectedFilterIdx;
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8),
       child: OutlinedButton(
@@ -59,7 +60,7 @@ class TaskFilter extends ConsumerWidget {
     );
   }
 
-  void _startScrollDelay() {
+  void _startScrollDelay(int selectedIndex) {
     Future.delayed(const Duration(microseconds: 1000), () {
       scrollToItem(selectedIndex);
     });
