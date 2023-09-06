@@ -25,6 +25,7 @@ For the architecture used clean code architecture approach to architect the stru
 ## Demo
 Download apk from [here](https://drive.google.com/file/d/12Iprfgu9Tmpayce1zCesMeKjNqqNy8k8/view?usp=sharing)
 
-![Screenshot](tasks.png | width=200)  ![Screenshot](add_task.png | width=200)
+<img src="tasks.png" width="50%" height="50%" />
+<img src="add_task.png" width="50%" height="50%" />
 
 
