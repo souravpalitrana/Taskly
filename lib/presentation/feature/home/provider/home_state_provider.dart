@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:taskly/domain/entities/task.dart';
-import 'package:taskly/domain/entities/task_type.dart';
+import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/models/task_type.dart';
 import 'package:taskly/domain/usecases/usecase_provider.dart';
 import 'package:taskly/presentation/feature/home/provider/home_ui_state.dart';
 import 'package:taskly/presentation/feature/task/provider/task_action_provider.dart';

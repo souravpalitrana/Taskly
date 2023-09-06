@@ -1,4 +1,4 @@
-import 'package:taskly/domain/entities/task.dart';
+import 'package:taskly/domain/models/task.dart';
 import 'package:taskly/presentation/feature/task/provider/task_action_state.dart';
 
 sealed class HomeUIState {}

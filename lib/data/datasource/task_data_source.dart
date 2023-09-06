@@ -1,5 +1,5 @@
-import 'package:taskly/domain/entities/task.dart';
-import 'package:taskly/domain/entities/task_type.dart';
+import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/models/task_type.dart';
 
 abstract class TaskDataSource {
   Future<bool> addTask(Task task);

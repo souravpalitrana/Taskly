@@ -1,5 +1,5 @@
-import 'package:taskly/domain/entities/task.dart';
-import 'package:taskly/domain/entities/task_type.dart';
+import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/models/task_type.dart';
 import 'package:taskly/domain/repository/task_repository.dart';
 import 'package:taskly/domain/usecases/get_all_task_by_type_usecase.dart';
 

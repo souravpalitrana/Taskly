@@ -1,4 +1,4 @@
-import 'package:taskly/domain/entities/task.dart';
+import 'package:taskly/domain/models/task.dart';
 import 'package:taskly/domain/repository/task_repository.dart';
 import 'package:taskly/domain/usecases/update_task_usecase.dart';
 

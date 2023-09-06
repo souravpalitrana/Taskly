@@ -1,4 +1,4 @@
-import 'package:taskly/domain/entities/task_type.dart';
+import 'package:taskly/domain/models/task_type.dart';
 
 sealed class TaskActionState {}
 
