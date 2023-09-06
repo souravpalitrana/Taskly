@@ -1,6 +1,20 @@
 # Taskly
 
-A simple task management app which I use daily. Before this app I was using trello to separate my task into four separate boards where each board has a specific meaning. In our daily life we have some tasks which we need to do urgently and also they are very important. May be if we miss that task it will cause a huge loss for us. Again some tasks may be urgent but they are not so important. Some taks can be done later but they are very important. Finally, we may have some tasks which not urgent and not so important. Maybe in the future we may want to complete that task. So this taskly app can help you to categorise your daily task easily so that don't need to think to much which task to do first and which task is last. 
+In one of the manager training in Pathao, our ex-HR Sifat Hasan bhai took a session on how to manage the daily tasks effectively. In that session, he showed us an effective way to manage our daily tasks. In our day-to-day tasks we have some tasks that are very important and also considering the deadline also urgent. So we need to pick those tasks whenever we get the chance. Again some tasks are not urgent but they are important for us. So what can we do we can categorize our tasks into 4 separate categories. 
+
+- Urgent & Important
+
+- Urgent but Not Important
+
+- Not Urgent but Important
+
+- Not Urgent & Not Important
+
+So putting our day to day task into these category helps us to prioritize which task should pick first and which kinds of task we can do in our leisure time as well. I use 4 trello boards and put my task there. 
+
+So I was thinking why not create a separate app for this? So here is the Taskly. A simple task management app for you. You can modify the code to fulfill your needs. I tried to make it as simple as possible. For architecture pattern, I used clean code architecture here. 
+
+Yes, lots of things can be improved. This is the first step to make it better. Will update it regularly from now on.
 
 
 
