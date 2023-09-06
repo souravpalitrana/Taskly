@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:taskly/domain/models/task.dart';
-import 'package:taskly/domain/models/task_status.dart';
-import 'package:taskly/domain/models/task_type.dart';
+import 'package:taskly/domain/entities/task.dart';
+import 'package:taskly/domain/entities/task_status.dart';
+import 'package:taskly/domain/entities/task_type.dart';
 import 'package:taskly/presentation/feature/task/provider/task_action_provider.dart';
-import 'package:taskly/presentation/providers/task_status_types_provider.dart';
-import 'package:taskly/presentation/providers/task_types_provider.dart';
+import 'package:taskly/presentation/feature/task/provider/task_status_types_provider.dart';
+import 'package:taskly/presentation/feature/task/provider/task_types_provider.dart';
 import 'package:taskly/routes.dart';
 
 class TaskFormWidget extends ConsumerStatefulWidget {

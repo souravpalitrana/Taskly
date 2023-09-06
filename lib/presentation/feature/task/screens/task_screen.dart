@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/entities/task.dart';
 import 'package:taskly/presentation/feature/task/widgets/task_form.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

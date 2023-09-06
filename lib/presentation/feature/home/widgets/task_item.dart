@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/entities/task.dart';
 
 class TaskItem extends StatelessWidget {
   const TaskItem(this._task, {super.key});

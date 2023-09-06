@@ -1,10 +1,10 @@
 import 'package:sqflite/sqlite_api.dart';
 import 'package:taskly/data/datasource/sql_constants.dart';
 import 'package:taskly/data/datasource/task_data_source.dart';
-import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/entities/task.dart';
 import 'package:path/path.dart' as path;
 import 'package:sqflite/sqflite.dart' as sql;
-import 'package:taskly/domain/models/task_type.dart';
+import 'package:taskly/domain/entities/task_type.dart';
 import 'package:taskly/data/datasource/transformer.dart';
 
 class TaskDataSourceAsDatabase extends TaskDataSource {
@@ -15,7 +15,7 @@ class TaskDataSourceAsDatabase extends TaskDataSource {
       onCreate: (db, version) {
         return db.execute(createTableQuery);
       },
-      version: 1,
+      version: dbVersion,
     );
     return db;
   }

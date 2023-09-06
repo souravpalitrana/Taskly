@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:taskly/domain/models/task.dart';
+import 'package:taskly/domain/entities/task.dart';
 import 'package:taskly/presentation/feature/home/provider/home_state_provider.dart';
 import 'package:taskly/presentation/feature/home/provider/home_ui_state.dart';
 import 'package:taskly/presentation/feature/home/widgets/task_filter.dart';

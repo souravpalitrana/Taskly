@@ -1,5 +1,5 @@
-import 'package:taskly/domain/models/task_status.dart';
-import 'package:taskly/domain/models/task_type.dart';
+import 'package:taskly/domain/entities/task_status.dart';
+import 'package:taskly/domain/entities/task_type.dart';
 import 'package:uuid/uuid.dart';
 
 const uuid = Uuid();
