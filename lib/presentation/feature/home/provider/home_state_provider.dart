@@ -14,8 +14,10 @@ class HomeStateNotifier extends StateNotifier<HomeUIState> {
         return;
       }
       final taskType = getTaskTypeFromTaskActionState(next);
+
       if (taskType != null) {
-        setFilter(getTaskIndexByName(taskType.name) + 1);
+        selectedFilterIdx = getTaskIndexByName(taskType.name) + 1;
+        loadTaskByType(taskType, next);
       }
     });
   }
