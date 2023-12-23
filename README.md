@@ -17,6 +17,9 @@ So I was thinking why not create a separate app for this? So here is the Taskly.
 Yes, lots of things can be improved. This is the first step to make it better. Will update it regularly from now on.
 
 
+<a href="https://www.buymeacoffee.com/souravpalin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="60" width="200"></a>
+
+
 
 ## Features
 
